@@ -1,0 +1,25 @@
+/* CSS styles for the website */
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+h1, h2 {
+  color: #333;
+}
+
+img {
+  width: 300px;
+  height: auto;
+  margin: 20px;
+}
+
+a {
+  color: #1d72b8;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
