@@ -26,3 +26,33 @@ a:hover {
 p {
   margin-bottom: 20px;
 }
+/*Import Hawaiian-style fonts */ 
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand:wght@300;400&display=swap'); 
+body { 
+  background-color: #f0e7db; /* Light sandy color for a tropical feel */ 
+  font-family: 'Quicksand', sans-serif; 
+  margin: 0; 
+  padding: 0; 
+  color: #333; 
+  line-height: 1.6; 
+} 
+h1 { 
+  font-family: 'Pacifico', cursive; 
+  text-align: center; 
+  font-size: 3rem; 
+  color: #00796b; /* Tropical green */ 
+  margin-top: 20px; 
+} 
+h2 { 
+  font-family: 'Pacifico', cursive;
+  text-align: center; 
+  font-size: 2rem; 
+  color: #ff8f00;  /* Sunset orange */ 
+  margin-bottom: 20px; 
+} 
+ol { 
+  max-width: 800px; 
+  margin: 0 auto; 
+  padding: 0; 
+  list-style: none; 
+} ol li { background-color: #fff3e0; /* Light orange background for items */ margin: 10px 0; padding: 20px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); } ol li a { font-family: 'Pacifico', cursive; font-size: 1.5rem; text-decoration: none; color: #d32f2f; /* Deep red for links */ } ol li p { font-family: 'Quicksand', sans-serif; font-size: 1rem; margin-top: 5px; color: #555; } a:hover { color: #00796b; /* Green hover effect for links */ } body::before { content: ""; background: url('https://cdn.pixabay.com/photo/2020/05/26/07/46/beach-5220366_960_720.jpg'); background-size: cover; background-position: center; opacity: 0.3; position: absolute; top: 0; left: 0; bottom: 0; right: 0; z-index: -1; }
